@@ -15,7 +15,7 @@ A multi-layer PDF keyword extraction pipeline that parses scanned and text-based
 ---
 
 ## 📂 Project Structure
-
+```bash
 keyword-extraction/
 │
 ├── src/
@@ -40,7 +40,7 @@ cd keyword-extraction
 - Ensure you’re using Python 3.10+ (tested on 3.10.x).
 pip install -r requirements.txt
 
--## Configure Environment Variables
+- ## Configure Environment Variables
 Create your .env file using the provided example:
 cp .env.example .env
 
@@ -48,7 +48,7 @@ cp .env.example .env
 PDF_INPUT_FOLDER=./data
 OUTPUT_CSV=./output/keyword_analysis.csv
 
--## Run the script
+- ## Run the script
 python src/keyword_extraction.py
 
 ---
